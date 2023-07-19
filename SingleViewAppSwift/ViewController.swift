@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         // Customize the appearance of UI elements
         titleLabel.font = UIFont.boldSystemFont(ofSize: 24)
         lblOne.textColor = UIColor.darkGray
-        lblTwo.textColor = UIColor.darkGray
+        lblTwo.textColor = UIColor.blue
         imageView.contentMode = .scaleAspectFit
     }
 
