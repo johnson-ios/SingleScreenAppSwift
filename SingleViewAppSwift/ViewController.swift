@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         // Set up your view controller's content and styling here
-        titleLabel.text = "Welcome to SINGLE VIEW APP"
+        titleLabel.text = "Welcome to SINGLE VIEW APP  "
         imageView.image = UIImage(named: "placeholder_image")
         lblOne.text = "Content for section 1 goes here."
         lblTwo.text = "Content for section 2 goes here."
@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         // Customize the appearance of UI elements
         titleLabel.font = UIFont.boldSystemFont(ofSize: 24)
         lblOne.textColor = UIColor.darkGray
-        lblTwo.textColor = UIColor.darkGray
+        lblTwo.textColor = UIColor.blue
         imageView.contentMode = .scaleAspectFit
     }
 
